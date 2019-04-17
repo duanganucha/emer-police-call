@@ -1,0 +1,7 @@
+{
+  "name": "emer-police-call",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

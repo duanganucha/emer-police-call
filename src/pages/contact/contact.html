@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <!-- <ion-title>Home</ion-title> -->
+    <img src="../../assets/imgs/emer-head.jpg" style="height: 100%; width: 100%;"/>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let item of numberLists" (click)="onCall(item)">
+    <ion-icon name="call" item-start large color="orange"></ion-icon>
+    <h2 >{{ item.B }}</h2>
+    <p style="color:orange ">{{ item.C }}</p>
+  </ion-item>
+</ion-content>
